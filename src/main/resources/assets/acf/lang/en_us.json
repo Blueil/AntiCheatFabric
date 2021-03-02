@@ -1,0 +1,9 @@
+{
+  "message.acf.whitelist": "The following mods are the only mods allowed on this server: %s",
+  "message.acf.whitelist.reload": "§aThe mods whitelist has been changed so we are kicking every player, rejoin.",
+  "command.acf.whitelist": "%s is now whitelisted on this server.",
+  "command.acf.not-found": "%s is not currently restricted in any way.",
+  "command.acf.remove.whitelist": "%s removed from whitelisted mods.",
+  "command.acf.list.whitelist": "whitelisted mods (%d):",
+  "message.acf.unlisted": "The following mods are not allowed on this server: %s"
+}
