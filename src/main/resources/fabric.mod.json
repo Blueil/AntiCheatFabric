@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "acf",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "AntiCheat Fabric",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Blue.il#7062 in discord"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,11 +19,15 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.blue.il.anti.cheat.fabric.impl.AntiCheatFabric",
+      "me.blue.il.anti.cheat.fabric.impl.AntiCheatFabricNetworking"
+    ],
+    "client": [
+      "me.blue.il.anti.cheat.fabric.impl.AntiCheatFabricNetworking"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "acf.mixins.json"
   ],
 
   "depends": {
